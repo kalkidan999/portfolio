@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
                 
                  {/* Left side: Logo / Name */}
                  <div className="text-2xl font-semibold tracking-tight text-neutral-700 dark:text-neutral-300">Kalkidan Demes</div>
-                
+          
                     {/* Desktop Links */}
                  <div
                     className={`md:hidden absolute top-full left-0 w-full bg-white  dark:bg-neutral-950 shadow-md flex flex-col items-center gap-6 overflow-hidden transition-all duration-300 text-gray-700 dark:text-neutral-300  ${
