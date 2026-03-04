@@ -18,7 +18,15 @@ const AboutSection: React.FC = () => {
                 I am a senior Mobile & Full-Stack Engineer with extensive experience designing and delivering scalable, clean, and minimal mobile and web applications. Skilled in building fintech, e-commerce, ride-sharing, and multi-role platforms, including wallets, banking apps, loan management systems, and agricultural service apps. Experienced with Flutter, React, Node.js, MongoDB, Firebase, and modern full-stack architectures, with expertise in state management, secure transactions, real-time systems, and production-grade deployments. Passionate about creating efficient, maintainable, and user-friendly applications that scale globally.
             </p>
              {/* CTA Button */}
-            <button className="btn-primary">Download Resume</button>
+            <section>
+                <a
+                    href="/resume.pdf"
+                    download="Kalkidan_Demes_Resume.pdf"
+                    className="inline-block px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition"
+                >
+                    Download Resume
+                </a>
+            </section>
         </section>
     );
 }

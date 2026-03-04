@@ -37,6 +37,13 @@ const Navbar: React.FC = () => {
                     <button onClick={() => scrollToSection(navigate, "skills")}>Skills</button>
                     <button onClick={() => scrollToSection(navigate, "projects")}>Projects</button>
                     <button onClick={() => scrollToSection(navigate, "contact")}>Contact</button>
+                    <NavLink
+                        to="/resume"
+                        className={({ isActive }) =>
+                        `transition ${
+                        isActive ? "text-blue-600 font-semibold" : "hover:text-blue-600"
+                        }`
+                    }>Resume</NavLink>
                 </div>
                  
                 
