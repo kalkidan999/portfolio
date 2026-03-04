@@ -8,7 +8,9 @@ const Resume: React.FC = () => {
           <section>
             <h1 className="text-4xl font-bold mb-4">Resume</h1>
             <p className="text-neutral-600 dark:text-neutral-400">
-               Mobile Engineer specializing in scalable corporate applications.
+               Software engineer with over 4 years experience in developing applications for multiple domains like finance, e-Commerce, Business,
+Ride-Sharing. I am experienced in designing, developing and testing scalable mobile, web, backend applications across different
+platforms.
             </p>
           </section>
 
