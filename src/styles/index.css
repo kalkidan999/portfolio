@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-layout {
+  background-color: whitesmoke;
+  color: #1f2937;
+  font-family: sans-serif;
+    /* gray-900 text by default */
+}
+
+
+/* Tailwind utility style example (can also use as className directly) */
+.btn-primary {
+  @apply bg-blue-600 text-white font-medium rounded-md px-6 py-3 hover:bg-blue-700 transition;
+}
+
+.btn-secondary {
+  @apply border border-blue-600 text-blue-600 font-medium rounded-md px-6 py-3 hover:bg-blue-50 transition;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade {
+  animation: fadeIn 1.9s ease forwards;
+}
+
+
+/* Enable dark class */
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  @apply bg-white text-black;
+}
+
+html[data-theme="dark"] {
+  @apply bg-neutral-950 text-neutral-100;
+}
+
+* {
+  @apply transition-colors duration-300;
+}
+
+body {
+  @apply min-h-screen;
+}

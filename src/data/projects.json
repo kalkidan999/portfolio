@@ -1,0 +1,171 @@
+
+[
+  {
+    "id": 1,
+    "title": "WAIMA",
+    "subtitle": "Farmer-Supplier-Agent Interaction Platform",
+    "description": "A mobile application connecting farmers, suppliers, and agents to facilitate communication, orders, and coordination across the agricultural supply chain.",
+    "tech": ["Flutter", "Bloc", "Hive","Firebase (Realtime Database / Firestore/ Cloud Messaging)","REST APIs"],
+    "github": "https://github.com/yourrepo",
+    "live": "",
+    "contributions": [
+      "Implemented multi-role authentication and role-based access control for farmers, suppliers, and agents",
+      "Developed real-time chat and notification system to enable seamless communication",
+      "Built order management and request tracking features connecting multiple stakeholders",
+      "Ensured offline functionality and conflict resolution during network interruptions",
+      "Optimized UI/UX for multi-user interactions, improving engagement and usability"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "FAO Digital Services Platform",
+    "subtitle": "Farmer Support App",
+    "description": "A mobile application providing farmers with information, guidance, and services to improve agricultural production and decision-making.",
+    "tech": ["Flutter", "Bloc", "Hive", "Shared Prefs", "Firebase (Realtime Database / Firestore/ Cloud Messaging)", "REST APIs"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Developed information modules delivering best practices, weather alerts, and service updates to farmers",
+      "Integrated data sync mechanisms to ensure up-to-date content even in low-connectivity areas",
+      "Implemented user-friendly search and navigation for easy access to agricultural resources",
+      "Built features to facilitate interaction with agricultural services and agents",
+      "Ensured app scalability and maintainability with Bloc state management and modular design"
+    ]
+  },
+   {
+    "id": 3,
+    "title": "FAO Mobile App Administration Platform (Web)",
+    "subtitle": "App",
+    "description": "A web-based administration platform designed to manage and monitor FAO mobile applications, giving regional admins and super admins full control over data and workflows.",
+    "tech": ["Flutter Web", "Shared Prefs", "Firebase (Realtime Database / Firestore/ Cloud Messaging)", "REST APIs"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Developed dashboards and management tools for regional and super admin roles",
+      "Built features to monitor mobile app data, user activity, and workflow status in real-time",
+      "Implemented CRUD operations and role-based access control to secure sensitive information",
+      "Optimized UI for desktop web, focusing on usability and efficiency for admins",
+      "Ensured seamless integration with mobile apps via APIs, supporting consistent data flow"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Push Notification Service",
+    "subtitle": "Backend System",
+    "description": "A backend messaging service designed to manage and deliver push notifications to mobile application users in a scalable and reliable manner.",
+    "tech": ["Node.js", "Express.js", "Firebase Cloud Messaging (FCM)", "REST APIs", "MongoDB"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Developed dashboards and management tools for regional and super admin roles",
+      "Built features to monitor mobile app data, user activity, and workflow status in real-time",
+      "Implemented CRUD operations and role-based access control to secure sensitive information",
+      "Optimized UI for desktop web, focusing on usability and efficiency for admins",
+      "Ensured seamless integration with mobile apps via APIs, supporting consistent data flow"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "HellOOpass Personal",
+    "subtitle": "Personal Wallet Application",
+    "description": "A mobile wallet application allowing users to manage funds from the company or self-top-ups and make payments to registered businesses.",
+    "tech": ["Flutter", "Dart", "Bloc", "Shared Prefs", "Firebase (Realtime Database / Firestore/ Cloud Messaging)", "REST APIs"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Implemented wallet creation, top-up, and payment functionalities with secure transaction flows",
+      "Integrated payment APIs to process transactions reliably and securely",
+      "Built detailed transaction history and user balance management features",
+      "Ensured smooth state management using Bloc for asynchronous operations and error handling",
+      "Optimized user experience for fast, intuitive financial operations"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "HellOOpass Merchant",
+    "subtitle": "Merchant Wallet Application (Closed-Loop Payment System)",
+    "description": "A merchant-focused wallet application enabling businesses to receive payments from users within a closed-loop ecosystem and withdraw funds to linked bank accounts.",
+    "tech": ["Flutter", "Dart", "Bloc", "Shared Prefs", "Firebase (Realtime Database / Firestore/ Cloud Messaging)", "REST APIs"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Developed merchant wallet system to securely receive and manage customer payments",
+      "Implemented closed-loop transaction logic ensuring controlled fund circulation within the ecosystem",
+      "Built withdrawal flow integrating bank transfer APIs with proper validation and status tracking",
+      "Designed real-time balance updates and detailed transaction history",
+      "Implemented secure authentication and role-based access control for merchant accounts",
+      "Handled edge cases such as failed transactions, reconciliation, and duplicate payment prevention"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "HellOOMarket",
+    "subtitle": "E-Commerce Platform",
+    "description": "A full-featured e-commerce mobile application enabling users to browse products, purchase online using an internal wallet, and process payments through external bank integrations.",
+    "tech": ["Flutter", "Dart", "Bloc", "Firebase (Realtime Database / Firestore/ Cloud Messaging)", "REST APIs"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Developed end-to-end shopping flow including product browsing, cart management, checkout, and order tracking",
+      "Integrated internal wallet system for seamless in-platform payments",
+      "Connected external bank payment APIs for secure transaction processing",
+      "Implemented transaction validation and error handling to prevent duplicate or failed payments",
+      "Built order history and payment tracking system for transparency",
+      "Optimized state management using Bloc for handling complex asynchronous payment and checkout flows"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "CIYA",
+    "subtitle": "Ride-Sharing Platform (Driver & User Apps)",
+    "description": "A mobile ride-sharing application enabling users to book rides and drivers to manage ride requests, with real-time trip tracking and integrated payments.",
+    "tech": ["Flutter", "Dart", "GetX", "Firebase (Realtime Database / Firestore/ Cloud Messaging)", "REST APIs", "Payment Gateway Integration"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Developed dual-role applications for users and drivers with synchronized real-time trip updates",
+      "Implemented ride request, acceptance, and tracking flows with live location updates",
+      "Integrated payment gateways for seamless fare processing and transaction validation",
+      "Built multi-stage trip status UI to reflect ride progress accurately for both users and drivers",
+      "Ensured smooth state management using GetX, handling concurrent updates and network failures",
+      "Optimized performance and UX for real-time notifications, map rendering, and driver-user interactions"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "LIB Mobile Banking App",
+    "subtitle": "Mobile Banking Application (iOS)",
+    "description": "A secure mobile banking application on the iOS platform enabling users to manage accounts, perform transactions, and access core banking services.",
+    "tech": ["Flutter (iOS)","Provider", "REST APIs", "Secure Storage", "Apple Developer Console"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Supported and enhanced iOS-specific features, ensuring smooth native performance and platform compliance",
+      "Managed iOS builds, certificates, provisioning profiles, and deployment to the App Store",
+      "Implemented secure authentication flows and transaction validation mechanisms",
+      "Ensured compliance with Apple App Store guidelines during submission and review process",
+      "Optimized performance and resolved iOS-specific issues related to permissions, background tasks, and push notifications",
+      "Assisted in production releases, version updates, and hotfix deployments"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "One Loans",
+    "subtitle": "Loan Management & Approval Platform (Mobile + Web)",
+    "description": "A full-stack loan service platform enabling users to request loans, track balances and statuses, while providing administrators with tools to review, approve, or reject loan applications.",
+    "tech": ["Flutter", "React.js", "Node.js", "Express.js","MongoDB", "REST APIs"],
+    "github": "",
+    "live": "",
+    "contributions": [
+      "Developed mobile application allowing users to View loan balance and repayment status, Submit loan requests, Track approval progress.",
+      "Built web-based admin dashboard using React for reviewing and managing loan applications",
+      "Implemented backend services using Node.js and Express for handling loan workflows",
+      "Designed MongoDB schemas for loan records, user roles, and approval states",
+      "Implemented validation, approval logic, and status transitions to prevent inconsistent loan states",
+      "Ensured secure API communication and error handling across mobile and web clients"
+    ]
+  }
+]
+
+
+

@@ -1,0 +1,25 @@
+import { useEffect, useRef, useState } from "react"
+
+export const useFadeInOnScroll = () => {
+    const ref = useRef<HTMLDivElement | null>(null);
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const observor = new IntersectionObserver(
+            ([entry]) => {
+                if(entry.isIntersecting) {
+                    setIsVisible(true);
+                }
+            },
+            {threshold: 0.2}
+        );
+
+        if(ref.current) observor.observe(ref.current);
+
+        return () => {
+            if(ref.current) observor.unobserve(ref.current);
+        }
+    }, []);
+
+    return { ref, isVisible };
+}
