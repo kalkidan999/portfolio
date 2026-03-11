@@ -128,7 +128,7 @@
     "title": "HellOOMarket",
     "subtitle": "E-Commerce Platform",
     "description": "A full-featured e-commerce mobile application enabling users to browse products, purchase online using an internal wallet, and process payments through external bank integrations.",
-    "tech": ["Flutter", "Dart", "Bloc", "Firebase (Realtime Database / Firestore/ Cloud Messaging)", "REST APIs"],
+    "tech": ["React", "Flutter", "Dart", "Bloc", "Firebase (Realtime Database / Firestore/ Cloud Messaging)", "REST APIs"],
     "github": "",
     "liveUrl": "",
     "contributions": [
@@ -195,7 +195,7 @@
     "title": "One Loans",
     "subtitle": "Loan Management & Approval Platform (Mobile + Web)",
     "description": "A full-stack loan service platform enabling users to request loans, track balances and statuses, while providing administrators with tools to review, approve, or reject loan applications.",
-    "tech": ["Flutter", "React.js", "Node.js", "Express.js","MongoDB", "REST APIs"],
+    "tech": ["React", "Flutter", "React.js", "Node.js", "Express.js","MongoDB", "REST APIs"],
     "github": "",
     "liveUrl": "",
     "contributions": [
