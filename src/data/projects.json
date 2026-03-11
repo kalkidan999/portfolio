@@ -15,9 +15,9 @@
       "Optimized UI/UX for multi-user interactions, improving engagement and usability"
     ],
     "screenshots": [
-    "/src/assets/waima1.png",
-    "/src/assets/waima2.png",
-    "/src/assets/waima3.png"
+    "assets/waima1.png",
+    "assets/waima2.png",
+    "assets/waima3.png"
     ]
   },
   {
@@ -37,12 +37,12 @@
       "Ensured app scalability and maintainability with Bloc state management and modular design"
     ],
      "screenshots": [
-    "/src/assets/fao1.jpeg",
-    "/src/assets/fao2.jpeg",
-    "/src/assets/fao3.jpeg",
-    "/src/assets/fao4.jpeg",
-    "/src/assets/fao5.jpeg",
-    "/src/assets/fao6.jpeg"
+    "assets/fao1.jpeg",
+    "assets/fao2.jpeg",
+    "assets/fao3.jpeg",
+    "assets/fao4.jpeg",
+    "assets/fao5.jpeg",
+    "assets/fao6.jpeg"
     ]
   },
    {
@@ -94,9 +94,9 @@
       "Optimized user experience for fast, intuitive financial operations"
     ],
      "screenshots": [
-    "/src/assets/personal1.png",
-    "/src/assets/personal2.png",
-    "/src/assets/personal3.png"
+    "assets/personal1.png",
+    "assets/personal2.png",
+    "assets/personal3.png"
     ]
   },
   {
@@ -118,9 +118,9 @@
       "Handled edge cases such as failed transactions, reconciliation, and duplicate payment prevention"
     ],
      "screenshots": [
-    "/src/assets/merchant1.png",
-    "/src/assets/merchant2.png",
-    "/src/assets/merchant3.png"
+    "assets/merchant1.png",
+    "assets/merchant2.png",
+    "assets/merchant3.png"
     ]
   },
   {
@@ -140,11 +140,11 @@
       "Optimized state management using Bloc for handling complex asynchronous payment and checkout flows"
     ],
      "screenshots": [
-    "/src/assets/helloomarket1.jpeg",
-    "/src/assets/helloomarket2.jpeg",
-    "/src/assets/helloomarket3.jpeg",
-    "/src/assets/helloomarket4.jpeg",
-    "/src/assets/helloomarket5.jpeg"
+    "assets/helloomarket1.jpeg",
+    "assets/helloomarket2.jpeg",
+    "assets/helloomarket3.jpeg",
+    "assets/helloomarket4.jpeg",
+    "assets/helloomarket5.jpeg"
     ]
   },
   {
@@ -165,12 +165,12 @@
       "Optimized performance and UX for real-time notifications, map rendering, and driver-user interactions"
     ],
      "screenshots": [
-      "/src/assets/ciya1.webp",
-      "/src/assets/ciya2.webp",
-      "/src/assets/ciya3.webp",
-      "/src/assets/ciya4.webp",
-      "/src/assets/mokumbi1.webp",
-      "/src/assets/mokumbi2.webp"
+      "assets/ciya1.webp",
+      "assets/ciya2.webp",
+      "assets/ciya3.webp",
+      "assets/ciya4.webp",
+      "assets/mokumbi1.webp",
+      "assets/mokumbi2.webp"
     ]
   },
   {
