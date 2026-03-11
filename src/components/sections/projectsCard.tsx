@@ -9,8 +9,8 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: Readonly<ProjectCardProps>) {
   return (
-    <Link 
-        to={`/projects/${project.id}`}
+    <div 
+       
                     key={project.title}
                     className="border border-gray-300 rounded-md p-6 text-left transition-all duration-300 hover:shadow-lg hover:shadow-blue-900 hover:-translate-y-1 hover:border-gray-300"
                     >
@@ -21,9 +21,11 @@ export default function ProjectCard({ project }: Readonly<ProjectCardProps>) {
                     ))}
                       <div className="flex gap-4 text-sm font-medium">
                           <div className="flex flex-row items-center gap-4 mt-5"> 
-                            <span className="text-blue-600 group-hover:underline">
+                            <Link to={`/projects/${project.id}`}>
+                              <span className="text-blue-600 hover:underline">
                                 View Case Study
                             </span>
+                            </Link>
 
                             {project.playstoreLink && (
                             <a
@@ -56,7 +58,7 @@ export default function ProjectCard({ project }: Readonly<ProjectCardProps>) {
                           )}
                         </div>
                       </div>
-                    </Link>
+                    </div>
     // <div className="border border-gray-200 dark:border-neutral-800 rounded-xl p-6 transition-all hover:shadow-lg hover:-translate-y-1">
 
     //   <h3 className="text-xl font-semibold mb-2">
