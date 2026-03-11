@@ -3,7 +3,7 @@
   {
   "id": 0,
   "title": "Kali Designs",
-  "subtitle": "Developer Portfolio Website",
+  "subtitle": "Full Stack Developer Portfolio",
   "description":
     "A modern developer portfolio built with React, TypeScript, and Tailwind. It showcases projects, case studies, and a responsive design with dark mode support.",
   "tech": ["React", "TypeScript", "Tailwind", "Vite"],
