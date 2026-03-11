@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import projects from "../../data/projects.json";
 import type { Project } from "../../types/project";
 import { FaAppStore, FaGooglePlay } from "react-icons/fa";
@@ -6,6 +6,7 @@ import { FaAppStore, FaGooglePlay } from "react-icons/fa";
 const projectList: Project[] = projects;
 
 export default function ProjectDetailPage() {
+    const navigate = useNavigate()
     const {id } = useParams<{ id: string }>()
     const project = projectList.find((p) => p.id === parseInt(id ?? ""));
 
@@ -13,6 +14,12 @@ export default function ProjectDetailPage() {
 
     return (
         <div className="max-w-5xl mx-auto py-12 px-6">
+            <button
+                onClick={() => navigate("/#projects")}
+                className="mb-6 text-base text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white"
+                >
+                ← Back to projects
+                </button>
             <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
             <p className="text-gray-700 dark:text-gray-300 mb-6">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-6">
