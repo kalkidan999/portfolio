@@ -22,8 +22,8 @@ export default function ProjectCard({ project }: Readonly<ProjectCardProps>) {
                       <div className="flex gap-4 text-sm font-medium">
                           <div className="flex flex-row items-center gap-4 mt-5"> 
                             <span className="text-blue-600 group-hover:underline">
-          View Case Study
-        </span>
+                                View Case Study
+                            </span>
 
                             {project.playstoreLink && (
                             <a
@@ -33,7 +33,8 @@ export default function ProjectCard({ project }: Readonly<ProjectCardProps>) {
                             >
                              <FaGooglePlay size={25}/>
                             </a>
-                          )}
+                            )}
+
                            {project.playstoreLink && (
                             <a
                               href={project.playstoreLink}
@@ -43,7 +44,6 @@ export default function ProjectCard({ project }: Readonly<ProjectCardProps>) {
                              <FaAppStore size={25}/>
                             </a>
                           )}
-                          </div>
 
                           {project.liveUrl && (
                             <a
@@ -54,7 +54,7 @@ export default function ProjectCard({ project }: Readonly<ProjectCardProps>) {
                               Live Demo
                             </a>
                           )}
-
+                        </div>
                       </div>
                     </Link>
     // <div className="border border-gray-200 dark:border-neutral-800 rounded-xl p-6 transition-all hover:shadow-lg hover:-translate-y-1">
