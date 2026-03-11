@@ -1,6 +1,26 @@
 
 [
   {
+  "id": 0,
+  "title": "Kali Designs",
+  "subtitle": "Developer Portfolio Website",
+  "description":
+    "A modern developer portfolio built with React, TypeScript, and Tailwind. It showcases projects, case studies, and a responsive design with dark mode support.",
+  "tech": ["React", "TypeScript", "Tailwind", "Vite"],
+  "liveUrl": "https://portfolio-one-ochre-64.vercel.app/",
+  "github": "https://github.com/kalkidan999/portfolio",
+  "screenshots": [
+    "/assets/portfolio1.png",
+    "/assets/portfolio2.png",
+     "/assets/portfolio3.png"
+  ],
+  "contributions": [
+    "Built reusable React components for layout and sections",
+    "Implemented dynamic routing for project case study pages",
+    "Created a custom theme hook to manage light and dark modes"
+  ]
+},
+  {
     "id": 1,
     "title": "WAIMA",
     "subtitle": "Farmer-Supplier-Agent Interaction Platform",

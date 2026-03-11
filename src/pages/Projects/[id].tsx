@@ -8,7 +8,7 @@ const projectList: Project[] = projects;
 export default function ProjectDetailPage() {
     const navigate = useNavigate()
     const {id } = useParams<{ id: string }>()
-    const project = projectList.find((p) => p.id === parseInt(id ?? ""));
+    const project = projectList.find((p) => p.id === Number.parseInt(id ?? ""));
 
     if(!project) return <p>Project not found</p>
 
