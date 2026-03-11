@@ -25,7 +25,12 @@ const Navbar: React.FC = () => {
             <nav className="w-full flex justify-between items-center py-6 px-8 bg-white dark:bg-neutral-950 border-b border-neutral-200 dark:border-neutral-800 shadow-sm sticky top-0 z-50">
                 
                  {/* Left side: Logo / Name */}
-                 <div className="text-2xl font-semibold tracking-tight text-neutral-700 dark:text-neutral-300">Kalkidan Demes</div>
+                 <div className="flex flex-row gap-2">
+                    <div className="text-2xl  text-blue-700 dark:text-blue-500 font-exo font-semibold font-amaranth" >{ "<" } </div>
+                    <div className="text-2xl font-bold  text-neutral-700 dark:text-neutral-300 font-amaranth tracking-wider ">{ "KD" } </div>
+                    <div className="text-2xl  text-blue-700 dark:text-blue-500 font-exo font-semibold font-amaranth" >{ "/>" } </div>
+                 </div>
+                 
           
                     {/* Desktop Links */}
                  <div
